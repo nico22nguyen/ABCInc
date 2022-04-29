@@ -50,8 +50,15 @@ def createClient(request):
 
     return response
 
-  body = getBody(request)
-  client = body['client']
+  try:
+    body = getBody(request)
+    client = body['client']
+  except:
+    response = HttpResponse('Expected client in request body')
+    response.status_code = 400
+
+    return response
+
 
   # create client in database
   # ------
