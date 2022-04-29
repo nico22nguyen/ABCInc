@@ -1,10 +1,8 @@
 from json import dumps
 
 from django.http import HttpResponse
-from django.views.decorators.csrf import csrf_exempt
 from ..utils import getBody
 
-@csrf_exempt
 def getClients(request):
   if request.method != 'GET':
     response = HttpResponse('Expected GET request')
@@ -24,7 +22,6 @@ def getClients(request):
 
   return HttpResponse(dumps(resp_body), content_type='application/json')
 
-@csrf_exempt
 def getClientById(request, clientId):
   if request.method != 'GET':
     response = HttpResponse('Expected GET request')
@@ -42,7 +39,6 @@ def getClientById(request, clientId):
 
   return HttpResponse(dumps(resp_body), content_type='application/json')
 
-@csrf_exempt
 def createClient(request):
   if request.method != 'POST':
     response = HttpResponse('Expected POST request')
@@ -70,7 +66,6 @@ def createClient(request):
 
   return HttpResponse(dumps(resp_body), content_type='application/json')
 
-@csrf_exempt
 def removeClient(request):
   if request.method != 'POST':
     response = HttpResponse('Expected POST request')
@@ -91,7 +86,6 @@ def removeClient(request):
 
   return HttpResponse(dumps(resp_body), content_type='application/json')
 
-@csrf_exempt
 def updateClient(request):
   if request.method != 'POST':
     response = HttpResponse('Expected POST request')

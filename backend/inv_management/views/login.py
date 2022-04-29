@@ -1,9 +1,7 @@
 from hashlib import sha256
 from django.http import HttpResponse
 from ..utils import getBody
-# TESTING from django.views.decorators.csrf import csrf_exempt
 
-# TESTING @csrf_exempt
 def login(request):
   if request.method != 'POST':
     response = HttpResponse('Must POST to login route')
