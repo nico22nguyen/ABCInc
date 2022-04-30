@@ -106,7 +106,6 @@
   width: 100%;
   padding: 10px;
   variant: "Default";
-  
 }
 .home-section{
   position: relative;
@@ -188,7 +187,7 @@ nav .profile-details .admin_name{
 }
 nav .profile-details i{
   font-size: 25px;
-  color: #fffff;
+  color: #ffffff;
 }
 .home-section .home-content{
   position: center;
@@ -244,37 +243,36 @@ nav .profile-details i{
   margin: -15px 0 0 6px;
 }
 .buttons {
-position: absolute;
-bottom:10px;
-center:10px;
-display: inline-block;
-font-style:normal;
-font-size: 27px;
-
+  position: absolute;
+  bottom:10px;
+  center:10px;
+  display: inline-block;
+  font-style:normal;
+  font-size: 27px;
 }
 
- .action_btn1 {
-width: 200px;
-height: 50px;
-padding-top: 10px;
-margin: auto;
-display: inline;
-background-color: #1c2550;
-pressedBackground: rgb(0,136,255);
-border: 8px;
-color:#ffffff;
+.action_btn1 {
+  width: 200px;
+  height: 50px;
+  padding-top: 10px;
+  margin: auto;
+  display: inline;
+  background-color: #1c2550;
+  pressedBackground: rgb(0,136,255);
+  border: 8px;
+    color:#ffffff;
 }
 .action_btn2 {
-width: 200px;
-height: 50px;
-padding-top: 10px;
-margin: auto;
-display: inline;
-background-color: #1c2550;
-pressedBackground: rgb(0,136,255);
-border: 8px;
-color:#ffffff;
-alignment: center;
+  width: 200px;
+  height: 50px;
+  padding-top: 10px;
+  margin: auto;
+  display: inline;
+  background-color: #1c2550;
+  pressedBackground: rgb(0,136,255);
+  border: 8px;
+  color:#ffffff;
+  alignment: center;
 }
 /* left box */
 .home-content .sales-boxes .recent-activity{
@@ -348,7 +346,8 @@ alignment: center;
     display: none;
   }
 }
-  @media (max-width: 400px) {
+
+@media (max-width: 400px) {
   .sidebar{
     width: 0;
   }
@@ -372,3 +371,4 @@ alignment: center;
     width: calc(100% - 60px);
   }
 }
+}}
