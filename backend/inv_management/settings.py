@@ -25,7 +25,9 @@ SECRET_KEY = 'jd&yxk+es9&7#y3m_a4klw056ns$q-1ay&wx9=8z=xs_qh5hl('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+]
 
 
 # Application definition
@@ -55,9 +57,9 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'inv_management.urls'
 
-CORS_ORIGIN_WHITELIST = [
-     'http://localhost'
-]
+CORS_ORIGIN_ALLOW_ALL = False
+ALLOWED_HOSTS=['localhost']
+CORS_ORIGIN_WHITELIST = ['http://localhost:3000']
 
 TEMPLATES = [
     {
