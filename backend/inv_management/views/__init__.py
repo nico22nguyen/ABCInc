@@ -6,3 +6,4 @@ from . import inventories
 from . import login
 from . import logs
 from . import resources
+from . import test

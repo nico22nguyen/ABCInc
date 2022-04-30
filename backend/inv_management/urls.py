@@ -53,7 +53,9 @@ apiurls = [
     path('clients/', include(clientUrls)),
     path('inventories/<str:clientId>/', include(inventoryUrls)),
     path('resources/<str:clientId>/<str:inventoryId>/', include(resourceUrls)),
-    path('logs/', include(logUrls))
+    path('logs/', include(logUrls)),
+    # TEST
+    path('test/', test.test)
 ]
 
 # lump all paths under api route
