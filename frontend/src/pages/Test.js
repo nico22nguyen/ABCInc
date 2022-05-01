@@ -77,13 +77,13 @@ const TEST = () => {
               <span class="contacts"></span>
               <div class ="rosa"> Rosa</div>
               <div class ="ashley">Ashley</div>
-              <img src="Ashley.jpeg"/>
+              <img src="static/Ashley.jpeg"/>
               <span class="contacts2"></span>
               <div class ="bryan">Bryan</div>
-              <img src="Bryan.jpeg"/>
+              <img src="static/Bryan.jpeg"/>
               <span class="contacts3"></span>
               <div class ="sarah">Sarah</div>
-              <img src="Sarah.jpeg"/>
+              <img src="static/Sarah.jpeg"/>
               <span class ="contacts4"></span> 
             </div>
             <div class="buttons">
