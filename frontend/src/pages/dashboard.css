@@ -1,59 +1,85 @@
 .sidebar{
-  position: fixed;
-  height: 100%;
+  position:fixed;
+  top:123px;
+  bottom: 0;
   width: 240px;
+  height:100%;
   background: #0A2558;
   transition: all 0.5s ease;
 }
 .sidebar.active{
-  width: 60px;
+  box-sizing: border-box;
+  width: 259px;
+  height: 100px;
+  background-color: var(--token-9c7bbc43-7fb2-4dcc-90b9-fc44549c119b, #1c2550);
+  overflow: visible;
+  border: 1px solid #cdadad;
 }
-.sidebar .logo-details{
-  height: 80px;
-  display: flex;
-  align-items: center;
+.sidebar.active2{
+  box-sizing: border-box;
+  position:fixed;
+  left: 10px;
+  top: 200px;
+  width: 325px;
+  height: 100px;
+  background-color: var(--token-9c7bbc43-7fb2-4dcc-90b9-fc44549c119b, #1c2550);
+  overflow: visible;
+  border: 1px solid #cdadad;
 }
-.sidebar .logo-details i{
-  font-size: 28px;
-  font-weight: 500;
-  color:  #1c2550;
-  min-width: 60px;
-  text-align: center
+.sidebar.active3{
+  box-sizing: border-box;
+  position:fixed;
+  top: 200px;
+  width: 325px;
+  height: 100px;
+  background-color: var(--token-9c7bbc43-7fb2-4dcc-90b9-fc44549c119b, #1c2550);
+  overflow: visible;
+  border: 1px solid #cdadad;
 }
 .sidebar .logo-details .user_name{
+  position: fixed;
   font-weight: 500;
   width: 179px;
   height: 51px;
+  top:45px;
+  bottom:904px;
+  left:132px;
   white-space: pre-wrap;
   word-wrap: break-word;
   word-break: break-word;
   font-weight: 700;
   font-style: normal;
   font-family: "Karma", serif;
-  color: #ffff;
+  color: #1f1e1e;
   font-size: 18px;
   letter-spacing: 0.5px;
   line-height: 1.9;
 
 }
 .sidebar .logo-details .user_name2{
-    width: 179px;
-  height: 51px;
+  position: fixed;
+  width: 148px;
+  height: 26px;
+  top: 83px;
+  bottom: 81px;
+  left:130px;
   white-space: pre-wrap;
   word-wrap: break-word;
   word-break: break-word;
   font-weight: 700;
   font-style: normal;
   font-family: "Karma", serif;
-  color: #ffff;
+  color: #1f1e1e;;
   font-size: 18px;
   letter-spacing: 0.5px;
   line-height: 1.9;
 }
 .sidebar .nav-links{
+  position:fixed;
+  top:150px;
   box-sizing: border-box;
   width: 259px;
-  height: 252px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -64,10 +90,63 @@
   border: 1px solid #636363;
 
 }
-.sidebar .nav-links li{
-  position: relative;
-  list-style: none;
-  height: 50px;
+.sidebar .nav-links2{
+  position:fixed;
+  top:300px;
+  left:10px;
+  box-sizing: border-box;
+  width: 259px;
+  height:150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 40px 0px 40px;
+  background-color: var(--token-9c7bbc43-7fb2-4dcc-90b9-fc44549c119b, #1c2550);
+  overflow: visible;
+  border: 1px solid #636363;
+
+}
+.sidebar .nav-links3{
+  position:fixed;
+  top:450px;
+  left:10px;
+  box-sizing: border-box;
+  width: 259px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 40px 0px 40px;
+  background-color: var(--token-9c7bbc43-7fb2-4dcc-90b9-fc44549c119b, #1c2550);
+  overflow: visible;
+  border: 1px solid #636363;
+
+}
+.frame{
+  box-sizing: border-box;
+  width: 259px;
+  height: 240px;
+  background-color: var(--token-9c7bbc43-7fb2-4dcc-90b9-fc44549c119b, #1c2550);
+  overflow: visible;
+  border: 1px solid #cdadad;
+}
+.dashboard {
+  position:fixed;
+  top:60px;
+  width: 292px;
+  height:70px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Karma", serif;
+  color: #1899ff;
+  font-size: 49px;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
 }
 .sidebar .nav-links li a{
   height: 100%;
@@ -100,13 +179,30 @@
   padding: 20px;
   letter-spacing: 0.5px;
 }
-.sidebar .nav-links .log_out{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 10px;
-  variant: "Default";
+.action_btn3{
+position:fixed;
+top:600px;
+left:50px;
+width: 128px;
+height: 50px;
+padding-top: 10px;
+margin: auto;
+display: inline;
+background-color: #1899FF;
+pressedBackground: rgb(0,136,255);
+border: 8px;
+color:#ffffff;
 }
+.buttons3 {
+position:fixed;
+bottom:20px;
+center:10px;
+display: inline-block;
+font-style:normal;
+font-size: 27px;
+background-color:rgb(0, 136, 255);
+}
+
 .home-section{
   position: relative;
   background: #f5f5f5;
@@ -138,18 +234,13 @@
   left: 60px;
   width: calc(100% - 60px);
 }
-.home-section nav .sidebar-button{
-  display: flex;
-  align-items: center;
-  font-size: 24px;
-  font-weight: 500;
-}
-
 .home-section nav .search-box{
-  position: center;
+  position: fixed;
+  top: 50px;
+  bottom: 917px;
+  left: 417px;
   height: 30px;
-  max-width: 300px;
-  width: 100%;
+  width: 350px;
   margin: 0 20px;
 }
 nav .search-box input{
@@ -172,12 +263,6 @@ nav .search-box input{
   min-width: 190px;
   padding: 0 15px 0 2px;
 }
-nav .profile-details img{
-  height: 40px;
-  width: 40px;
-  border-radius: 6px;
-  object-fit: cover;
-}
 nav .profile-details .admin_name{
   font-size: 15px;
   font-weight: 500;
@@ -187,7 +272,7 @@ nav .profile-details .admin_name{
 }
 nav .profile-details i{
   font-size: 25px;
-  color: #ffffff;
+  color: #fffff;
 }
 .home-section .home-content{
   position: center;
@@ -202,16 +287,26 @@ nav .profile-details i{
   margin-bottom: 26px;
 }
 .overview-boxes .box{
-  display: flex;
-  align-items: relative;
+   display: flex;
+  position:fixed;
+  top: 200px;
+  left:315px;
+  bottom:205px;
+  right:388px;
   justify-content: center;
-  width: calc(100% / 4 - 15px);
-  background: #fff;
-  padding: 15px 14px;
-  border-radius: 12px;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  width: 306px;
+  height: 136px;
+  background: white;
+  radius: 8px;
+  border =1px;
+ variant: active;
+  shadow= true;
 }
 .overview-boxes .box-topic{
+  position: fixed;
+  top:240px;
+  bottom: 205px;
+  left: 400px;
   font-size: 16px;
   font-weight: 700;
   font-family: "Karma", serif;
@@ -224,7 +319,8 @@ nav .profile-details i{
   align-items: left; 
 }
 .home-content .box .number{
-  align-items: center;
+  position: fixed;
+  top:270px;
   font-size: 28px;
   margin-top: -6px;
   font-weight: 500;
@@ -243,52 +339,177 @@ nav .profile-details i{
   margin: -15px 0 0 6px;
 }
 .buttons {
-  position: absolute;
-  bottom:10px;
-  center:10px;
-  display: inline-block;
-  font-style:normal;
-  font-size: 27px;
+position: fixed;
+top:600px;
+bottom:10px;
+center:10px;
+display: inline-block;
+font-style:normal;
+font-size: 27px;
+
 }
 
-.action_btn1 {
-  width: 200px;
-  height: 50px;
-  padding-top: 10px;
-  margin: auto;
-  display: inline;
-  background-color: #1c2550;
-  pressedBackground: rgb(0,136,255);
-  border: 8px;
-    color:#ffffff;
+ .action_btn1 {
+width: 200px;
+height: 50px;
+padding-top: 10px;
+margin: auto;
+display: inline;
+background-color: #1c2550;
+pressedBackground: rgb(0,136,255);
+border: 8px;
+color:#ffffff;
 }
 .action_btn2 {
-  width: 200px;
-  height: 50px;
-  padding-top: 10px;
-  margin: auto;
-  display: inline;
-  background-color: #1c2550;
-  pressedBackground: rgb(0,136,255);
-  border: 8px;
-  color:#ffffff;
-  alignment: center;
+width: 200px;
+height: 50px;
+padding-top: 10px;
+margin: auto;
+display: inline;
+background-color: #1c2550;
+pressedBackground: rgb(0,136,255);
+border: 8px;
+color:#ffffff;
+alignment: center;
 }
 /* left box */
 .home-content .sales-boxes .recent-activity{
   width: 720px;
   height: 428px;
-  background: #fafafa;
+  background: gray;
   padding: 20px 30px;
   margin: 0 20px;
   border-radius: 12px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   overflow: visible;
 }
+.rosa{
+  position:fixed;
+  top:520px;
+  width: 90px;
+  height: 28px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Karma", serif;
+  color: #000000;
+  font-size: 27px;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+
+}
+.ashley {
+  position:fixed;
+  top:520px;
+  left:455px;
+  width: 103px;
+  height: 26px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Karma", serif;
+  color: #000000;
+  font-size: 27px;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+}
+.bryan {
+  position:fixed;
+  top:520px;
+  left:600px;
+  width: 107px;
+  height: 36px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Karma", serif;
+  color: #000000;
+  font-size: 27px;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+}
+.sarah {
+  position:fixed;
+  top: 520px;
+  left:800px;
+  width: 113px;
+  height: 36px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Karma", serif;
+  color: #000000;
+  font-size: 27px;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+}
 .sales-boxes .box .title{
   font-size: 24px;
   font-weight: 500;
   /* margin-bottom: 10px; */
+}
+.container{
+  position: fixed;
+  top: 400px;
+  width: 256px;
+  height: 49px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Karma", serif;
+  color: #000000;
+  font-size: 27px;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+}
+.contacts{
+  position:fixed;
+  top:500px;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 12px;
+  background: #333;
+}
+.contacts2{
+  position:fixed;
+  top:500px;
+  left:455px;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 12px;
+  background: #333;
+}
+.contacts3{
+  position:fixed;
+  top:500px;
+  left:600px;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 12px;
+  background: #333;
+}
+.contacts4{
+  position:fixed;
+  left:800px;
+  top:500px;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 12px;
+  background: #333;
 }
 
 /* Responsive Media Query */
@@ -346,8 +567,7 @@ nav .profile-details i{
     display: none;
   }
 }
-
-@media (max-width: 400px) {
+  @media (max-width: 400px) {
   .sidebar{
     width: 0;
   }
@@ -371,4 +591,3 @@ nav .profile-details i{
     width: calc(100% - 60px);
   }
 }
-}}
