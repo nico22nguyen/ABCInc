@@ -1,7 +1,7 @@
 from json import dumps
 
 from django.http import HttpResponse
-from ..utils import getBody
+from ..utils import getBody, cursor
 
 def getClients(request):
   if request.method != 'GET':
@@ -12,9 +12,8 @@ def getClients(request):
 
   maxClients = request.GET.get('max', None)
 
-  # get maxClients clients from database
-  # ------
-  # ------
+  res = cursor.callproc('GetAllclientinformation')
+  print(res)
 
   resp_body = {
     'clients': [ """ list of clients """]
@@ -34,7 +33,7 @@ def getClientById(request, clientId):
   # ------
 
   resp_body = {
-    'client': ""# client from db 
+    'client': "" # client from db 
   }
 
   return HttpResponse(dumps(resp_body), content_type='application/json')
