@@ -124,7 +124,7 @@ DELIMITER ;
 
 DELIMITER $$
 USE `tnt`$$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `GetAllclientcontacts`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `GetAllclientcontacts`() 
 begin 
 	select * from clientcontacts;
     end$$
@@ -137,7 +137,7 @@ DELIMITER ;
 
 DELIMITER $$
 USE `tnt`$$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `GetAllclientinfomation`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `GetAllclientinformation`()
 begin 
 	select * from clientinfomation;
     end$$
