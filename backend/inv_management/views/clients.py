@@ -1,7 +1,7 @@
 from json import dumps
 
 from django.http import HttpResponse
-from ..utils import getBody, cursor
+from ..utils import getBody, callProcSafe
 
 def getClients(request):
   if request.method != 'GET':
@@ -12,7 +12,8 @@ def getClients(request):
 
   maxClients = request.GET.get('max', None)
 
-  res = cursor.callproc('GetAllclientinformation')
+  res = callProcSafe('GetAllclientinformation')
+
   print(res)
 
   resp_body = {
