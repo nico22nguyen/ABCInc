@@ -347,7 +347,7 @@ nav .profile-details i{
   font-size: 27px;
 }
 
-.action_btn1 {
+.action_btn {
   width: 200px;
   height: 50px;
   padding-top: 10px;
@@ -357,18 +357,7 @@ nav .profile-details i{
   pressedBackground: rgb(0,136,255);
   border: 8px;
   color:#ffffff;
-}
-.action_btn2 {
-width: 200px;
-height: 50px;
-padding-top: 10px;
-margin: auto;
-display: inline;
-background-color: #1c2550;
-pressedBackground: rgb(0,136,255);
-border: 8px;
-color:#ffffff;
-alignment: center;
+  cursor: pointer;
 }
 /* left box */
 .home-content .sales-boxes .recent-activity{

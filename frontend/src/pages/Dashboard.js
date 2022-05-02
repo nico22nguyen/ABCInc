@@ -65,9 +65,17 @@ const Dashboard = () => {
               </div>
               <div className="buttons">
                 <div className="action_btn">
-
-                  <button name="enter" className="action_btn1 view clients" type="submit" value="View Clients">View Clients</button>
-                  <button name="enter" className="action_btn2 access logs" type="submit" value="Access Logs">Access Logs</button>
+                  <a href='/clients'>
+                    <button 
+                      name="enter" 
+                      className="action_btn view clients" 
+                      type="submit" 
+                      value="View Clients"
+                    >
+                      View Clients
+                    </button>
+                  </a>
+                  <button name="enter" className="action_btn access logs" type="submit" value="Access Logs">Access Logs</button>
 
                   <p id="saved"></p>
 
