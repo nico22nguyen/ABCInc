@@ -55,25 +55,45 @@ const Dashboard = () => {
             <div class="recent-activity box">
               <div class="title">Overview</div>
               <div class="container">Recent Activity</div>
-              
               <div class ="rosa"> Rosa</div>
-              <span class="contacts"></span>
-              <img src="/static/Rosa.jpeg"/>
+              <div class="contacts">
+                <img src="/static/Rosa.jpeg"/>
+              </div>
               <div class ="ashley">Ashley</div>
-              <span class ="contacts2"></span>
-              <img src="/static/ashley.jpeg"/>
+              <div class ="contacts2">
+                <img src="/static/ashley.jpeg"/>
+              </div>
               <div class ="bryan">Bryan</div>
-              <span class ="contacts3"></span>
-              <img src="/static/bryan.jpeg"/>
+              <div class ="contacts3">
+                <img src="/static/bryan.jpeg"/>
+              </div>
               <div class ="sarah">Sarah</div>
-              <span class ="contacts4"></span>
-              <img src="/static/sarah.jpeg"/>
+              <div class ="contacts4">
+                <img src="/static/sarah.jpeg"/>
+              </div>
             </div>
           </div>
           <div class="buttons">
             <div class="action_btn">
-              <button name="enter" class="action_btn1" type="submit" value="View Clients" onclick="Interaction">View Clients</button>
-              <button name="enter" class="action_btn2" type="submit" value="Access Logs" onclick="Interaction">Access Logs</button>
+              <button 
+                name="enter" 
+                class="action_btn" 
+                type="submit" 
+                value="View Clients" 
+                onclick="Interaction"
+                style={{left: 600}}
+              >
+                View Clients
+              </button>
+              <button 
+                name="enter" 
+                class="action_btn" 
+                type="submit" 
+                value="Access Logs" 
+                onclick="Interaction"
+              >
+                Access Logs
+              </button>
               <p id="saved"></p>
             </div>
           </div>

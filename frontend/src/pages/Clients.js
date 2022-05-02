@@ -19,7 +19,7 @@ const Clients = () => {
           <span class="user_name2">position</span>
         </div>
         <div class="buttons3">
-          <div class="action_btn3" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}> 
+          <div class="client-action_btn3" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}> 
             <button name="enter" type="submit" value="Dashboard" style={{backgroundColor: '#1899FF', border: 'none', color: 'white'}}>
               Dashboard
             </button>
@@ -33,8 +33,8 @@ const Clients = () => {
           </div>
         </nav>
         <div class="buttons">
-          <div class="action_btn">
-            <button name="enter" class="action_btn1 add clients" type="submit" value="Add Clients" onclick="Interaction">
+          <div class="client-action_btn">
+            <button name="enter" class="client-action_btn1 add clients" type="submit" value="Add Clients" onclick="Interaction">
               Add Clients
             </button>
           </div>
@@ -43,19 +43,19 @@ const Clients = () => {
           <div class ="client">Client</div>
           <div class ="emy-jackson">Emy Jackson</div>
           <div class ="emy-jao-gmail-com">emy_jao@gmail.com</div>
-          <div class ="contacts">Contacts</div> 
+          <div class ="client-contacts">Contacts</div> 
           <div class ="laura-madison">Laura Madison</div>
           <div class ="laura-mad-gmail-com">laura_mad@gmail.com</div>
-          <div class ="contacts2">Contacts</div> 
+          <div class ="client-contacts2">Contacts</div> 
           <div class ="keate-medona">Keate Medona</div>
           <div class ="keate-med-gmail-com">keate_med@gmail.com</div>
-          <div class ="contacts3">Contacts</div> 
+          <div class ="client-contacts3">Contacts</div> 
           <div class ="winslet-mays">Winslet Mays</div>
           <div class ="winslet-m-gmail-com">winslet_m@gmail.com</div>
-          <div class ="contacts4">Contacts</div> 
+          <div class ="client-contacts4">Contacts</div> 
           <div class ="merlyn-dona">Merlyn Dona</div>
           <div class ="dona-mer-gmail-com">dona_mer@gmail.com</div>
-          <div class ="contacts5">Contacts</div> 
+          <div class ="client-contacts5">Contacts</div> 
           <div class= "company">Company</div>
           <div class= "industry">Industry</div>
           <div class= "industry2">Industry</div>
