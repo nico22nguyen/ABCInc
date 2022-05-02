@@ -16,7 +16,7 @@ def getClients(request):
   print(res)
 
   resp_body = {
-    'clients': [ """ list of clients """]
+    'clients': res
   }
 
   return HttpResponse(dumps(resp_body), content_type='application/json')
