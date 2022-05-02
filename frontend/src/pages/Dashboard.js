@@ -10,7 +10,6 @@ const Dashboard = () => {
           <span className="user_name2">position</span>
         </div>
         <div className="profile-details">
-          {/*<img src=IMG_5562.JPG alt=""> */}
           <i className='bx bx-chevron-down' ></i>
         </div>
         <ul className="nav-links">
