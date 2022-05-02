@@ -42,11 +42,12 @@ const TEST = () => {
               <span class="links_name">Settings</span>
             </a>
           </li>
-      
+        </ul>
         <div class="buttons3">
           <div class="action_btn3">      
             <button name="enter" class="action_btn3 log out" type="submit" value="Log Out" onclick="Interaction">Log out</button>
-            </ul>
+          </div>
+        </div>
       </div>
       <section class="home-section">
         <nav>
@@ -65,29 +66,30 @@ const TEST = () => {
             </div>
             <i class='bx bx-cart-alt cart'></i>
           </div>
-          <div class="sales-boxes">
-            <div class="recent-activity box">
-              <div class="title">Overview</div>
-              <div>
-              <div class="container">Recent Activity</div> 
-              <div class ="rosa"> Rosa</div>
-              <span class="contacts"></span>
-               <img src ="Rosa.jpeg">
-              <div class ="ashley">Ashley</div>                   <span class ="contacts2"></span>
-              <img src="Ashley.jpeg">
-              <div class ="bryan">Bryan</div>
-              <span class ="contacts3"></span>
-              <img src="Bryan.jpeg">
-              <div class ="sarah">Sarah</div>                     <span class ="contacts4"></span> 
-              <img src="Sarah.jpeg">
-            
-              </div>
-          <div class="buttons">
-            <div class="action_btn">
-              <button name="enter" class="action_btn1 view clients" type="submit" value="View Clients" onclick="Interaction">View Clients</button>
-              <button name="enter" class="action_btn2 access logs" type="submit" value="Access Logs" onclick="Interaction">Access Logs</button>
-              <p id="saved"></p>
-            </div>
+        </div>
+        <div class="sales-boxes">
+          <div class="recent-activity box">
+            <div class="title">Overview</div>
+            <div class="container">Recent Activity</div> 
+            <div class ="rosa"> Rosa</div>
+            <span class="contacts"></span>
+            <img src="Rosa.jpeg"/>
+            <div class ="ashley">Ashley</div>
+            <span class ="contacts2"></span>
+            <img src="ashley.jpeg"/>
+            <div class ="bryan">Bryan</div>
+            <span class ="contacts3"></span>
+            <img src="bryan.jpeg"/>
+            <div class ="sarah">Sarah</div>
+            <span class ="contacts4"></span> 
+            <img src="sarah.jpeg"/>
+          </div>
+        </div>
+        <div class="buttons">
+          <div class="action_btn">
+            <button name="enter" class="action_btn1 view clients" type="submit" value="View Clients" onclick="Interaction">View Clients</button>
+            <button name="enter" class="action_btn2 access logs" type="submit" value="Access Logs" onclick="Interaction">Access Logs</button>
+            <p id="saved"></p>
           </div>
         </div>
       </section>

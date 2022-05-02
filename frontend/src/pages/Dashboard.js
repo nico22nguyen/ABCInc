@@ -55,23 +55,25 @@ const Dashboard = () => {
             <div class="recent-activity box">
               <div class="title">Overview</div>
               <div class="container">Recent Activity</div>
-              <span class="contacts"></span>
+              
               <div class ="rosa"> Rosa</div>
+              <span class="contacts"></span>
+              <img src="/static/Rosa.jpeg"/>
               <div class ="ashley">Ashley</div>
-              <img src="Ashley.jpeg"/>
               <span class ="contacts2"></span>
+              <img src="/static/ashley.jpeg"/>
               <div class ="bryan">Bryan</div>
-              <img src="Bryan.jpeg"/>
               <span class ="contacts3"></span>
+              <img src="/static/bryan.jpeg"/>
               <div class ="sarah">Sarah</div>
-              <img src="Sarah.jpeg"/>
-              <span class ="contacts4"></span> 
+              <span class ="contacts4"></span>
+              <img src="/static/sarah.jpeg"/>
             </div>
           </div>
           <div class="buttons">
             <div class="action_btn">
-              <button name="enter" class="action_btn1 view clients" type="submit" value="View Clients" onclick="Interaction">View Clients</button>
-              <button name="enter" class="action_btn2 access logs" type="submit" value="Access Logs" onclick="Interaction">Access Logs</button>
+              <button name="enter" class="action_btn1" type="submit" value="View Clients" onclick="Interaction">View Clients</button>
+              <button name="enter" class="action_btn2" type="submit" value="Access Logs" onclick="Interaction">Access Logs</button>
               <p id="saved"></p>
             </div>
           </div>
