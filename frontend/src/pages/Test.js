@@ -30,7 +30,7 @@ const TEST = () => {
               <span class="links_name">Dashboard</span>
             </a>
           </li>
-          <li>
+            <li>
             <a href="#" class= "active2">
               <i class='bx bx-boxx' ></i>
                 <span class="links_name">Messages</span>
@@ -42,12 +42,11 @@ const TEST = () => {
               <span class="links_name">Settings</span>
             </a>
           </li>
-        </ul>
+      
         <div class="buttons3">
           <div class="action_btn3">      
             <button name="enter" class="action_btn3 log out" type="submit" value="Log Out" onclick="Interaction">Log out</button>
-          </div>
-        </div>
+            </ul>
       </div>
       <section class="home-section">
         <nav>
@@ -69,20 +68,20 @@ const TEST = () => {
           <div class="sales-boxes">
             <div class="recent-activity box">
               <div class="title">Overview</div>
-              <div class="container">Recent Activity</div>
-              <span class="contacts"></span>
+              <div>
+              <div class="container">Recent Activity</div> 
               <div class ="rosa"> Rosa</div>
-              <div class ="ashley">Ashley</div>
-              <img src="Ashley.jpeg"/>
-              <span class ="contacts2"></span>
+              <span class="contacts"></span>
+               <img src ="Rosa.jpeg">
+              <div class ="ashley">Ashley</div>                   <span class ="contacts2"></span>
+              <img src="Ashley.jpeg">
               <div class ="bryan">Bryan</div>
-              <img src="Bryan.jpeg"/>
               <span class ="contacts3"></span>
-              <div class ="sarah">Sarah</div>
-              <img src="Sarah.jpeg"/>
-              <span class ="contacts4"></span> 
-            </div>
-          </div>
+              <img src="Bryan.jpeg">
+              <div class ="sarah">Sarah</div>                     <span class ="contacts4"></span> 
+              <img src="Sarah.jpeg">
+            
+              </div>
           <div class="buttons">
             <div class="action_btn">
               <button name="enter" class="action_btn1 view clients" type="submit" value="View Clients" onclick="Interaction">View Clients</button>
