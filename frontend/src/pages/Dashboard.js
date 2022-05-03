@@ -75,16 +75,18 @@ const Dashboard = () => {
           </div>
           <div class="buttons">
             <div class="action_btn">
-              <button 
-                name="enter" 
-                class="action_btn" 
-                type="submit" 
-                value="View Clients" 
-                onclick="Interaction"
-                style={{left: 600}}
-              >
-                View Clients
-              </button>
+              <a href='/clients'>
+                <button 
+                  name="enter" 
+                  class="action_btn" 
+                  type="submit" 
+                  value="View Clients" 
+                  onclick="Interaction"
+                  style={{left: 600}}
+                >
+                  View Clients
+                </button>
+              </a>
               <button 
                 name="enter" 
                 class="action_btn" 

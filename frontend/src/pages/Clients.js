@@ -19,11 +19,19 @@ const Clients = () => {
           <span class="user_name2">position</span>
         </div>
         <div class="buttons3">
-          <div class="client-action_btn3" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}> 
-            <button name="enter" type="submit" value="Dashboard" style={{backgroundColor: '#1899FF', border: 'none', color: 'white'}}>
-              Dashboard
-            </button>
-          </div>
+          <a href='/'>
+            <div class="client-action_btn3" style={{display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer'}}> 
+              <button name="enter" type="submit" value="Dashboard" 
+                style={{
+                  backgroundColor: '#1899FF', 
+                  border: 'none', 
+                  color: 'white',
+                  cursor: 'pointer'
+                }}>
+                Dashboard
+              </button>
+            </div>
+          </a>
         </div>
       </div>
       <section class="home-section">
